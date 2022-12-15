@@ -1,16 +1,15 @@
-<script setup>
-import calculatorView from './components/home/calculatorView.vue';
+<script>
+import Calculator from '../src/components/home/calculator.vue';
 // export default{
-//   name: "App",
+//   name:"App",
 //   components:{
-//     calculatorView
+//     Calculator
 //   }
 // }
 </script>
 
 <template>
-  <calculatorView/>
+  <h1>Test</h1>
+ <Calculator/>
+ 
 </template>
-
-<style scoped>
-</style>
